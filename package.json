@@ -1,8 +1,11 @@
 {
-  "name": "insight-api-zcash",
-  "description": "A Zcash blockchain REST and web socket API service for Bitcore Node.",
+  "name": "insight-api-crypticcoin",
+  "description": "A CrypticCoin blockchain REST and web socket API service for Bitcore Node.",
   "version": "0.4.3",
-  "repository": "git://github.com/zcash-hackworks/insight-api-zcash.git",
+  "repository": {
+    "type": "git",
+    "url": "https://git.sfxdx.ru/cryptic/insight-api-crypticcoin.git"
+  },  
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -45,16 +48,12 @@
       "email": "simon@z.cash"
     }
   ],
-  "bugs": {
-    "url": "https://github.com/zcash-hackworks/insight-api-zcash/issues"
-  },
-  "homepage": "https://github.com/zcash-hackworks/insight-api-zcash",
   "license": "MIT",
   "keywords": [
     "insight",
     "insight api",
     "blockchain",
-    "zcash api",
+    "crypticcoin api",
     "blockchain api",
     "json",
     "bitcore"
@@ -69,8 +68,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib-zcash": "zcash-hackworks/bitcore-lib-zcash",
-    "bitcore-message-zcash": "zcash-hackworks/bitcore-message-zcash",
+    "bitcore-lib-crypticcoin": "git+https://git.sfxdx.ru/cryptic/bitcore-lib-crypticcoin.git",
+    "bitcore-message-crypticcoin": "git+https://git.sfxdx.ru/cryptic/bitcore-message-crypticcoin.git",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "^2.4.1",
