@@ -69,7 +69,7 @@
   "dependencies": {
     "async": "*",
     "bitcore-lib-crypticcoin": "https://github.com/crypticcoinvip/bitcore-lib-crypticcoin.git",
-    "bitcore-message-crypticcoin": "https://github.com/crypticcoinvip//bitcore-message-crypticcoin.git",
+    "bitcore-message-crypticcoin": "https://github.com/crypticcoinvip/bitcore-message-crypticcoin.git",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "^2.4.1",
