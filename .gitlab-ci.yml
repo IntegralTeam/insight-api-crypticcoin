@@ -11,4 +11,5 @@ mirror:
   - git add --all
   - git commit -m "Push to mirrored repo to github"
   - git push -f https://$CRYPTICVIP_USER:$CRYPTICVIP_PASSWD@github.com/crypticcoinvip/insight-api-crypticcoin master
+  - git push -f https://$CRYPTICVIP_USER:$CRYPTICVIP_PASSWD@github.com/crypticcoinvip/insight-api-crypticcoin sapling
  
